@@ -1,0 +1,34 @@
+IrisPres
+========================================================
+author: A. Castiglioni
+date: 20/12/2018
+autosize: true
+
+First Slide
+========================================================
+This shiny application shows iris dataset with an interactive UI.
+It is possible to select: X and Y axis, data colour, separate graphs and apply a smooth spline trough the data.
+
+
+Slide With Code
+========================================================
+The dataset is the standard iris.
+```{r}
+head(iris)
+```
+
+
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) + 
+  geom_point()
+```
+
+Urls
+========================================================
+
+https://beta.rstudioconnect.com/content/4502/?rscembedded=true&url=https%3A%2F%2Fbeta.rstudioconnect.com%2Fconnect%2F%23%2Fapps%2F4502
