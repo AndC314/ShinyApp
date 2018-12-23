@@ -21,6 +21,7 @@ head(iris)
 
 Slide With Plot
 ========================================================
+In the application you will be able to modify the graph to explore the data.
 
 ```{r, echo=FALSE}
 library(ggplot2)
@@ -30,5 +31,9 @@ ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
 
 Urls
 ========================================================
+You can find the application and the code in the links below:
 
-https://beta.rstudioconnect.com/content/4502/?rscembedded=true&url=https%3A%2F%2Fbeta.rstudioconnect.com%2Fconnect%2F%23%2Fapps%2F4502
+https://acasti55.shinyapps.io/IrisData/
+https://github.com/AndC314/ShinyApp
+
+
